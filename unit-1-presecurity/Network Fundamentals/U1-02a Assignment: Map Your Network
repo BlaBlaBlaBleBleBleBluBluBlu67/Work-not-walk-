@@ -1,1 +1,65 @@
+Q1 : ipv4 address is  10.206.7.168
+     MAC address is 7C-70-DB-B3-9C-D7
 
+Q2 : With a private IP address, you won't be able to access the Internet.
+     Thanks to NAT, a group of devices with private IP addresses can use a single public IP address to communicate on the network without using their own private IP addresses.
+
+Q3 : A MAC address is at Layer 2 (the data link layer), and an IP address is at Layer 3 (the network layer) of the OSI model.
+     IP address can be changed, MAC address is (mostly) fixed to your hardware.
+     MAC is yuor devise serial number, like VIN in auto, IP is like your poste code.
+
+Q4 : 1) 256 addresses
+     2) 254 addresses
+     3) network address is 10.206.7.0 and the broadcast address is 10.206.7.255
+
+Q5 : default gateway address is 10.206.0.1. Yes, they're on the same network, since the first digits of their IP addresses match.
+
+Q6 : 
+
+Q7 : 
+
+Q8 : My DNS is configured to 62.241.198.245, 62.241.198.246 servers (DNA)
+
+Q9 : example.com resolve to 172.66.147.243, 104.20.23.154 IP addresses
+     Yes, yuotube.com and google.com return multiple IP addresses
+     Large websites use multiple IP addresses to ensure stable performance, high speed, and security.
+
+Q10 : An attacker could find out which websites I visit and, if they wanted to, replace the response from the website with a phishing link.
+
+Q11 : It takes 30 hops, the first hop is my own default gateway.
+
+Q12 : The node rejects the packet for various reasons, such as security measures, network congestion, or connection issues.
+
+Q13 :  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:5040           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:5357           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49670          0.0.0.0:0              LISTENING
+  TCP    10.206.7.168:139       0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:5354         0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:24830        0.0.0.0:0              LISTENING
+  TCP    192.168.56.1:139       0.0.0.0:0              LISTENING
+  TCP    [::]:135               [::]:0                 LISTENING
+  TCP    [::]:445               [::]:0                 LISTENING
+  TCP    [::]:5357              [::]:0                 LISTENING
+  TCP    [::]:49664             [::]:0                 LISTENING
+  TCP    [::]:49665             [::]:0                 LISTENING
+  TCP    [::]:49666             [::]:0                 LISTENING
+  TCP    [::]:49667             [::]:0                 LISTENING
+  TCP    [::]:49668             [::]:0                 LISTENING
+  TCP    [::]:49670             [::]:0                 LISTENING
+  TCP    [::1]:31819            [::]:0                 LISTENING
+  TCP    [::1]:42050            [::]:0                 LISTENING
+  TCP    [::1]:49669            [::]:0                 LISTENING
+
+Q14 : Port 22 (TCP) is the standard port for the SSH (Secure Shell) protocol, which is used for secure remote access to servers and network devices.
+      Port 445 (TCP/UDP) is a standard Microsoft port used by Active Directory services and the SMB (Server Message Block) protocol for sharing files, printers, and network resources in Windows.
+
+Q15 : All ports are open and its very easy to hack me by the hacker.
+
+Q16 : 

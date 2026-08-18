@@ -1,1 +1,74 @@
+# Network Profile — [Garage]
 
+## Identity
+- IPv4 address: 192.168.101.***
+- Subnet mask / CIDR: 255.255.255.0
+- MAC address: 74-56-3C-64-**-**
+- Network address: 192.168.101.0
+- Broadcast address: 192.168.101.255
+
+## Gateway and reachability
+- Default gateway: 192.168.101.*
+- Ping to gateway (avg): 0 ms
+- Ping to 1.1.1.1 (avg): 2 ms
+
+## DNS
+- Configured DNS server(s): fe80::5aae:a8ff:fe7d:a56d
+- example.com resolves to: 172.66.147.243, 104.20.23.154
+
+## Path to the internet
+- Hops to example.com: 7
+- First hop:  <1 ms    <1 ms    <1  ms  dna.wifi [2001:14ba:a108:4c00::1]
+
+## Listening ports
+| Port | Protocol | Interface (localhost / all) | Common use |
+TCP    0.0.0.0:135            0.0.0.0:0              LISTENING
+TCP    0.0.0.0:445            0.0.0.0:0              LISTENING
+TCP    0.0.0.0:5040           0.0.0.0:0              LISTENING
+TCP    0.0.0.0:5357           0.0.0.0:0              LISTENING
+TCP    0.0.0.0:7680           0.0.0.0:0              LISTENING
+TCP    0.0.0.0:8070           0.0.0.0:0              LISTENING
+TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING
+TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING
+TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING
+TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING
+TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING
+TCP    0.0.0.0:49733          0.0.0.0:0              LISTENING
+TCP    0.0.0.0:49743          0.0.0.0:0              LISTENING
+TCP    0.0.0.0:54235          0.0.0.0:0              LISTENING
+TCP    100.87.141.49:34587    0.0.0.0:0              LISTENING
+TCP    127.0.0.1:1337         0.0.0.0:0              LISTENING
+TCP    127.0.0.1:5354         0.0.0.0:0              LISTENING
+TCP    127.0.0.1:9010         0.0.0.0:0              LISTENING
+TCP    127.0.0.1:9180         0.0.0.0:0              LISTENING
+TCP    127.0.0.1:13331        0.0.0.0:0              LISTENING
+TCP    127.0.0.1:13344        0.0.0.0:0              LISTENING
+TCP    127.0.0.1:45654        0.0.0.0:0              LISTENING
+TCP    127.0.0.1:65444        0.0.0.0:0              LISTENING
+TCP    192.168.56.1:139       0.0.0.0:0              LISTENING
+TCP    192.168.101.198:139    0.0.0.0:0              LISTENING
+TCP    [::]:135               [::]:0                 LISTENING
+TCP    [::]:445               [::]:0                 LISTENING
+TCP    [::]:5357              [::]:0                 LISTENING
+TCP    [::]:7680              [::]:0                 LISTENING
+TCP    [::]:8070              [::]:0                 LISTENING
+TCP    [::]:49664             [::]:0                 LISTENING
+TCP    [::]:49665             [::]:0                 LISTENING
+TCP    [::]:49666             [::]:0                 LISTENING
+TCP    [::]:49667             [::]:0                 LISTENING
+TCP    [::]:49668             [::]:0                 LISTENING
+TCP    [::]:49733             [::]:0                 LISTENING
+TCP    [::]:49743             [::]:0                 LISTENING
+TCP    [::]:54235             [::]:0                 LISTENING
+TCP    [::1]:13337            [::]:0                 LISTENING
+TCP    [::1]:42050            [::]:0                 LISTENING
+TCP    [fd7a:115c:a1e0::6c01:8da5]:33348  [::]:0                 LISTENING
+
+## Reflection (150–200 words)
+While working on these tasks, I realized just how easy it is to fall into a scammer’s trap, even if you’ve never done anything that could compromise your security.
+The scariest part came when I learned more about DNS—it’s unsettling to realize that a malicious actor could steal all my data simply by finding out which websites I visit.
+I was also surprised to find that all the ports on my computer were open, which means I’m an easy target for a hacker.
+I’ve started thinking much more seriously about my own online security—my studies in cybersecurity are already paying off.
+It’s actually hard to say which commands I’d use most often, because they’re all needed at one time or another,
+so I’d like to try to memorize most of them so that I can spend less time searching for the right commands as I continue working.
+I really enjoyed exploring my computer and figuring out how hackers can steal user data.

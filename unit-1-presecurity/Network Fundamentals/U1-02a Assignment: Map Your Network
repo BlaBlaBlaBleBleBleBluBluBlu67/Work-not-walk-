@@ -14,9 +14,9 @@ Q4 : 1) 256 addresses
 
 Q5 : default gateway address is 10.206.0.1. Yes, they're on the same network, since the first digits of their IP addresses match.
 
-Q6 : 
+Q6 : Traffic to the IP address (1.1.1.1) arrives faster because it uses Anycast technology.
 
-Q7 : 
+Q7 : DNS
 
 Q8 : My DNS is configured to 62.241.198.245, 62.241.198.246 servers (DNA)
 
@@ -61,5 +61,3 @@ Q14 : Port 22 (TCP) is the standard port for the SSH (Secure Shell) protocol, wh
       Port 445 (TCP/UDP) is a standard Microsoft port used by Active Directory services and the SMB (Server Message Block) protocol for sharing files, printers, and network resources in Windows.
 
 Q15 : All ports are open and its very easy to hack me by the hacker.
-
-Q16 : 

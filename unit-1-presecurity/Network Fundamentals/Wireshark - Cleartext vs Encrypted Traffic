@@ -1,1 +1,24 @@
+    Part A — the HTTP capture
 
+1) username=anna.virtanen&password=Summer2026!&remember=on
+
+2) POST
+
+3) The SESSIONID cookie is essentially a “face ID” that the server uses to recognize you and provide you with all the data related to your requests and actions.
+because a hacker who obtains this cookie file has essentially obtained an exact copy of your identity, which they can use to log in to the server under your name.
+
+4) <!DOCTYPE html><html><head><title>Dashboard</title></head><body><h1>Welcome back, Anna Virtanen</h1><p>Role: Finance Administrator</p><p>Email: anna.virtanen@pohjola-logistics.local</p><p>Last login from 10.10.10.50</p></body></html>
+
+     Part B — the HTTPS capture
+
+5) No, I can't, because all the messages are encrypted.
+
+6) lab-portal.local
+
+7) He'll only be able to find out the company's name, but that won't do him any good
+
+     Part C — making sense of it
+
+8) Because the HTTPS protocol encrypts the message, whereas HTTP does not.
+
+9) 

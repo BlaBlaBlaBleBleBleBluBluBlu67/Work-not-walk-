@@ -21,4 +21,5 @@ because a hacker who obtains this cookie file has essentially obtained an exact 
 
 8) Because the HTTPS protocol encrypts the message, whereas HTTP does not.
 
-9) 
+9) When using public Wi-Fi, security measures such as WPA2/WPA3 are in place, but in any case, 
+   all your requests go to the provider, who could do who knows what with them, and it’s also unclear what people monitoring the free Wi-Fi traffic might do.
